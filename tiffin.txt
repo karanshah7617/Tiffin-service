@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffin Service Ahmedabad</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
+        header { background: #ff5733; color: white; text-align: center; padding: 15px; font-size: 24px; }
+        nav { text-align: center; padding: 10px; }
+        nav a { margin: 0 15px; text-decoration: none; color: #333; font-size: 18px; }
+        .container { padding: 20px; text-align: center; }
+        .section { background: white; padding: 20px; margin: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        footer { background: #222; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>Tiffin Service Ahmedabad</header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#vendors">Become a Vendor</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="home" class="section">
+            <h2>Welcome to Tiffin Service Ahmedabad</h2>
+            <p>Healthy, affordable, and homemade food delivered to your doorstep.</p>
+        </div>
+        <div id="services" class="section">
+            <h2>Our Services</h2>
+            <p>Choose from a variety of meal plans: Veg, Non-Veg, Jain, Diet Plans.</p>
+            <p>Daily, Weekly, and Monthly Subscriptions Available.</p>
+        </div>
+        <div id="vendors" class="section">
+            <h2>Become a Vendor</h2>
+            <p>Are you a home chef or tiffin provider? Register with us and grow your business!</p>
+            <button onclick="alert('Vendor Registration Coming Soon!')">Register Now</button>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: support@tiffinservice.com | Phone: +91 98765 43210</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Tiffin Service Ahmedabad. All Rights Reserved.
+    </footer>
+</body>
+</html>
